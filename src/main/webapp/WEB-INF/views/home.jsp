@@ -16,16 +16,16 @@
 	<div class="container">
 		<div class="wrapper">
 			<ul class='navigation-bar'>
-				<li id='nav-home'><a href="#"></a></li>
+				<li id='nav-home'><a href=""></a></li>
 				<li id='nav-tests'>
-					<a href="#"></a>
+					<a href=""></a>
 					<ul id="tests-submenu">
 						<li id="toefl-list"><a href=""></a></li>
 						<li id="sat-list"><a href=""></a></li>
 						<li id="gre-list"><a href=""></a></li>
 					</ul>
 				</li>
-				<li id='nav-apply'><a href="#"></a></li>
+				<li id='nav-apply'><a href="apply"></a></li>
 				<li id='nav-study_aboard'><a href="#"></a></li>
 				<li id='nav-fqa'><a href="#"></a></li>
 				<li id='nav-about'><a href="#"></a></li>
@@ -133,7 +133,12 @@
 				</div>
 			</div>
 		</div>
-		
+		<div class="wrapper">
+			<footer>
+				<p class="pull-right"><a href="#">Back to top</a></p>
+				<p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+			</footer>
+		</div>
 	</div>
 
 	<!-- Javascript -->
