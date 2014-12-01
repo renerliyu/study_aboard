@@ -94,48 +94,33 @@ body{
 	list-style-type:none;
 	padding-left:0;
 	padding-right:0;
-	z-index:100000000;
+	z-index:1;
 	display:none;
-	opacity: 0.8;
+	
 }
 #tests-submenu li{
+	border: solid 1px black;
 	list-style-type:none;
-	width:195px;
+	width:200px;
 	height:30px;
+	//background-image:url(../images/Test-menu.jpg);
 }
 #toefl-list{
 	background-image:url(../images/Test-menu.jpg);
-	background-position:-9px 0px;
+	background-position:top left;
+}
+#toefl-list a:{
+	width:200px;
+	height:30px;
+
 }
 #toefl-list a:hover{
 	background-image:url(../images/Test-menu.jpg);
 	background-position:-210px 0px;
-	height:100%;
-}
-#sat-list{
-	background-image:url(../images/Test-menu.jpg);
-	background-position:-9px -30px;
-}
-#sat-list a:hover{
-	background-image:url(../images/Test-menu.jpg);
-	background-position:-210px -30px;
-	height:100%;
-}
-#gre-list{
-	background-image:url(../images/Test-menu.jpg);
-	background-position:-9px -60px;
-}
-#gre-list a:hover{
-	background-image:url(../images/Test-menu.jpg);
-	background-position:-210px -60px;
-	height:100%;
 }
 .navigation-bar li:hover #tests-submenu{
 	display:block;
 }
 #nav-home a:hover{
 	background-position:0 -52px;
-}
-.carousel{
-	position: relative; z-index:-1;
 }

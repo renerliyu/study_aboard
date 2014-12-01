@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="study_aboard" name="Ye Ni">
     <title>Home</title>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet"/>	
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
@@ -16,13 +17,21 @@
 		<div class="wrapper">
 			<ul class='navigation-bar'>
 				<li id='nav-home'><a href="#"></a></li>
-				<li id='nav-tests'><a href="#"></a></li>
+				<li id='nav-tests'>
+					<a href="#"></a>
+					<ul id="tests-submenu">
+						<li id="toefl-list"><a href=""></a></li>
+						<li id="sat-list"><a href=""></a></li>
+						<li id="gre-list"><a href=""></a></li>
+					</ul>
+				</li>
 				<li id='nav-apply'><a href="#"></a></li>
 				<li id='nav-study_aboard'><a href="#"></a></li>
 				<li id='nav-fqa'><a href="#"></a></li>
 				<li id='nav-about'><a href="#"></a></li>
 			</ul>
 		</div>
+		 
 		<div class="wrapper">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		      <ol class="carousel-indicators">
@@ -127,7 +136,6 @@
 		
 	</div>
 
-<P>  The time on the server is ${serverTime}. </P>
 	<!-- Javascript -->
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
