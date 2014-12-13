@@ -73,5 +73,6 @@
 			<li id='nav-about'><a href="#"></a></li>
 		</ul>
 	</div>
+	Select a file: <input type="file" name="img" class="file"/>
 </body>
 </html>

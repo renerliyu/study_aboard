@@ -139,3 +139,14 @@ body{
 .carousel{
 	position: relative; z-index:-1;
 }
+#apply-form .form-group{
+	margin-top:5px;
+}
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
